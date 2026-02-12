@@ -1,2 +1,2 @@
 # CORDIC
-COordinate Rotation DIgital Computer (CORDIC) implemented of VHDL.
+COordinate Rotation DIgital Computer (CORDIC) implementation on VHDL.
