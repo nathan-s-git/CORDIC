@@ -100,7 +100,7 @@ P.S. How additions and subtractions are handled:
 ### FSM with the RTL elements
 ![FSM with all its RTL components](diagrams/png/1-fsm_with_all_rtl_elements.png)
 
-### FSM with control signals
+### FSM with the control signals
 ![FSM with its control signals](diagrams/png/2-fsm_with_control_signals.png)
 
 ## Acknowledgements
