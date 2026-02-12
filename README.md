@@ -51,33 +51,33 @@ It has two modes of operation:
     - Performs the following assignments/calculations:
         - $x ← x + (y>>i)$
         - $y ← y - (x>>i)$
-        - $z ← z + $ arctans( $i$ )
+        - $z ← z + arctans(i)$
         - $i ← i + 1$
-    - arctans is a table of precomputed values of arctan( $2^(-i)$ )
+    - arctans is a table of precomputed values of arctan( $2^{-i}$ )
 
 7. iter_2_r
     - Performs the following assignments/calculations:
         - $x ← x - (y>>i)$
         - $y ← y + (x>>i)$
-        - $z ← z - $ arctans( $i$ )
+        - $z ← z - arctans(i)$
         - $i ← i + 1$
-    - arctans is a table of precomputed values of arctan( $2^(-i)$ )
+    - arctans is a table of precomputed values of arctan( $2^{-i}$ )
 
 8. *iter_1_v*
     - Performs the following assignments/calculations:
         - $x ← x - (y>>i)$
         - $y ← y + (x>>i)$
-        - $z ← z - $ arctans( $i$ )
+        - $z ← z - arctans(i)$
         - $i ← i + 1$
-    - arctans is a table of precomputed values of arctan( $2^(-i)$ )
+    - arctans is a table of precomputed values of arctan( $2^{-i}$ )
 
 9. *iter_2_v*
     - Performs the following assignments/calculations:
         - $x ← x + (y>>i)$
         - $y ← y - (x>>i)$
-        - $z ← z + $ arctans( $i$ )
+        - $z ← z + arctans(i)$
         - $i ← i + 1$
-    - arctans is a table of precomputed values of arctan( $2^(-i)$ ).
+    - arctans is a table of precomputed values of arctan( $2^{-i}$ ).
 
 10. *adjust_x*
     - This state is exclusive to the Vectorization path, since the pre-adjustment is performed in Rotation only.
